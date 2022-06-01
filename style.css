@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cornflowerblue;
+    height: 8em;
+    padding-left: 1em;
+    padding-right: 2em;
+    color: white;
+}
+
+.header {
+    height: 100vh;
+    background: url('./assets/background.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.titulos {
+    margin: 2em;
+    font-size: 2.5em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8em;
+    padding-left: 1em;
+    padding-right: 2em;
+    color: white;
+}
+
+footer {
+    margin-top: 3em;
+}
+
+.logo {
+    height: 8em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: inherit;
+    margin: 1em;
+}
+
+main {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.banner {
+    height: 100%;
+}
+
+#frm_altaAnuncios {
+    width: 30%;
+    margin: auto;
+    text-align: left;
+    font-family: 'Montserrat';
+}
+
+fieldset {
+    background-color: white;
+}
+
+.input {
+    margin-top: 1em;
+}
+
+.input label {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+input {
+    width: 100%;
+    border-radius: 0.8em;
+    background-color: gainsboro;
+    border: none;
+    padding: 0.3em;
+}
+
+#listado {
+    width: 60%;
+    margin: auto;
+    border-top: 1px solid black;
+}
+
+.radio {
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.caracteristicas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caracteristicas .input {
+    display: flex;
+    width: 30%;
+}
+
+button {
+    padding: 0.8em 2em;
+    margin: 0.5em;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    border: none;
+}
+
+.icon {
+    height: 1em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    filter: brightness(80%);
+}
+
+#btn_form, #btn_editar {
+    background-color: limegreen;
+}
+
+#btn_eliminar {
+    background-color: crimson;
+}
+
+#btn_cancelar {
+    background-color: dodgerblue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+tbody tr:hover {
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+#spinner {
+    margin: auto;
+    display: block;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+thead {
+    background-color: salmon;
+}
+
+.card {
+    text-align: left;
+    border: 1px solid black;
+    width: 40%;
+    margin: auto;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: antiquewhite;
+}
+
+.btn_card {
+    width: 100%;
+    background-color: coral;
+}

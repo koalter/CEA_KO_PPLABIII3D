@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Administración</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/logo.png" alt="logo" class="logo">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="index.html">Anuncios</a>
+                </li>
+                <li>
+                    <a href="index.html">Blog</a>
+                </li>
+                <li>
+                    <a href="index.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Administración</h2>
+        <img src="./assets/banner.png" alt="banner de autos" class="banner">
+        <form id="frm_altaAnuncios">
+            <fieldset>
+                <legend>Información Del Anuncio</legend>
+                <div class="input">
+                    <label for="txt_titulo">Título:</label>
+                    <input type="text" id="txt_titulo" name="titulo" placeholder="Título" required>
+                </div>
+                <div class="input">
+                    <label>Transacción:</label>
+                    <section class="radio">
+                        <label for="rdo_venta">Venta:</label>
+                        <input type="radio" name="transaccion" id="rdo_venta" value="venta" required>
+                        <label for="rdo_alquiler">Alquiler:</label>
+                        <input type="radio" name="transaccion" id="rdo_alquiler" value="alquiler" required>
+                    </section>
+                </div>
+                <div class="input">
+                    <label for="txt_descripcion">Descripcion:</label>
+                    <input type="text" id="txt_descripcion" name="descripcion" placeholder="Descripcion" required>
+                </div>
+                <div class="input">
+                    <label for="txt_precio">Precio</label>
+                    <input type="number" name="precio" id="txt_precio" placeholder="Precio" required>
+                </div>
+                <section class="caracteristicas">
+                    <div class="input">
+                        <img class="icon" src="./assets/puertas-icon.svg" alt="puertas">
+                        <input type="number" name="puertas" id="txt_puertas" placeholder="Puertas" required>
+                    </div>
+                    <div class="input">
+                        <img class="icon" src="./assets/kms-icon.svg" alt="kms">
+                        <input type="number" name="kms" id="txt_kms" placeholder="KMs" required>
+                    </div>
+                    <div class="input">
+                        <img class="icon" src="./assets/potencia-icon.svg" alt="potencia">
+                        <input type="number" name="potencia" id="txt_potencia" placeholder="Potencia" required>
+                    </div>
+                </section>
+            </fieldset>
+            <button id="btn_form">
+                <img src="./assets/save-icon.svg" class="icon">
+                Guardar
+            </button>
+        </form>
+        <div id="listado">
+            <button class="hidden" id="btn_editar">Guardar</button>
+            <button class="hidden" id="btn_eliminar">Eliminar</button>
+            <button class="hidden" id="btn_cancelar">Cancelar</button>
+            <img src="./assets/spinner.gif" id="spinner">
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="index.html">Anuncios</a>
+                </li>
+                <li>
+                    <a href="index.html">Blog</a>
+                </li>
+                <li>
+                    <a href="index.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <p>Todos los Derechos Reservados 2019 &copy;</p>
+    </footer>
+
+    <script src="./scripts/admin.js" type="module"></script>
+</body>
+</html>
