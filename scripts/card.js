@@ -6,7 +6,7 @@ function crearTarjeta(auto) {
 
     const $button = document.createElement("button");
     $button.appendChild(document.createTextNode("Ver Vehiculo"));
-    $button.className = "btn_card";
+    $button.classList = ["btn btn-danger"];
     $card.appendChild($button);
 
     $card.className = "card";
