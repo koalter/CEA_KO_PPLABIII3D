@@ -1,0 +1,44 @@
+{
+  "anuncios": [
+    {
+      "id": 0,
+      "titulo": 0,
+      "transaccion": 0,
+      "descripcion": 0,
+      "precio": 0,
+      "num_puertas": 0,
+      "num_KMs": 0,
+      "potencia": 0
+    },
+    {
+      "id": 1,
+      "titulo": "Jeep Renegade",
+      "transaccion": "venta",
+      "descripcion": "Jeep Renegade 2017",
+      "precio": 1300000,
+      "num_puertas": 5,
+      "num_KMs": 100000,
+      "potencia": 140
+    },
+    {
+      "id": 1654035148020,
+      "titulo": "Renault Megane",
+      "transaccion": "venta",
+      "descripcion": "Renault Megane 2014",
+      "precio": "8000000",
+      "num_puertas": "5",
+      "num_KMs": "80000",
+      "potencia": "140"
+    },
+    {
+      "id": 1656456844871,
+      "titulo": "Gol",
+      "transaccion": "venta",
+      "descripcion": "Un VW Gol",
+      "precio": "50000",
+      "num_puertas": "3",
+      "num_KMs": "100000",
+      "potencia": "100"
+    }
+  ]
+}

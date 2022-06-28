@@ -74,10 +74,31 @@
                 Guardar
             </button>
         </form>
+        <fieldset id="filtros">
+            <legend>Filtros</legend>
+            <section id="input_filtros">
+                <div class="input">
+                    <label for="cbx_filtro">FILTRAR POR:</label>
+                    <select name="filtro" id="cbx_filtro">
+                        <option value="todos" selected>Todos</option>
+                        <option value="alquiler">Alquiler</option>
+                        <option value="venta">Venta</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <label for="txt_promedio">PROMEDIO DE PRECIOS:</label>
+                    <input type="text" name="promedio" id="txt_promedio" disabled>
+                </div>
+            </section>
+        </fieldset>
         <div id="listado">
             <button class="hidden" id="btn_editar">Guardar</button>
             <button class="hidden" id="btn_eliminar">Eliminar</button>
             <button class="hidden" id="btn_cancelar">Cancelar</button>
+            <section id="campos">
+                <h2>Campos mostrados</h2>
+                <h3>Tildar los campos a mostrar</h3>
+            </section>
             <img src="./assets/spinner.gif" id="spinner">
         </div>
     </main>
